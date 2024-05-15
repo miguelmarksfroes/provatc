@@ -1,0 +1,47 @@
+.conteudo
+{
+    width: 1200px;
+    margin: auto;
+    padding: 3rem;
+}
+.conteudo > div 
+{
+    margin: 2rem;
+}
+.titulo, .subtitulo
+{
+    text-align: center;
+}
+.conteudo > .texto
+{
+    font-size: 2rem;
+    text-align: justify;
+}
+.imagens
+{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+.card1, .card2, .card3
+{
+    border: 3px solid black;
+    width: 300px;
+    height: 200px;
+}
+.card1
+{
+    background-image: url(../Imagens/lou.jpg);
+    background-size: cover;
+}
+.card2
+{
+    background-image:url(../Imagens/elprimo.jpg) ;
+    background-size:cover ;
+}
+.card3
+{
+    background-image: url(../Imagens/spike.webp);
+    background-size: cover;
+    
+}
